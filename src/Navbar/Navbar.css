@@ -1,0 +1,37 @@
+@import url('../General/colorset.css');
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-logo {
+    width: 20%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 80%;
+    min-width: 40%;
+}
+
+.navbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--color-letter-light);
+    text-decoration: none;
+}
