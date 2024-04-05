@@ -1,5 +1,6 @@
 import React from 'react'
 
+import {Cards} from '../components/index'
 import './Home.css'
 
 export const Home = () => {
@@ -15,7 +16,10 @@ export const Home = () => {
           </div>
         </div>
         <div className='home-hero-skills'>
-            <div className=''>
+            <div className='home-skils-left'>
+                <Cards title='Prueba' body='Prueba Body'/>
+            </div>
+            <div className='home-skils-right'>
 
             </div>
         </div>
