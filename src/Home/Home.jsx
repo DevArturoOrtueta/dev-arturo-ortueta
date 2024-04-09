@@ -17,7 +17,7 @@ export const Home = () => {
         </div>
         <div className='home-hero-skills'>
             <div className='home-skils-left'>
-                <Cards title='Prueba' body='Prueba Body'/>
+                
             </div>
             <div className='home-skils-right'>
 
@@ -25,7 +25,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='home-services'>
-
+          
       </div>
       <div className='home-feedback'>
 

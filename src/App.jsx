@@ -1,18 +1,16 @@
 import { Route, Routes } from "react-router-dom"
-import { NotPage } from "./General/NotPage"
-import { Home } from "./Home/Home"
-import { Navbar } from "./Navbar/Navbar"
-import { Projects } from "./Projects/Projects"
+import { NotPage } from "./components/NotFound/NotPage"
+import { Home } from "./home/Home"
+
 
 
 function App() {
 
   return (
+    //<Navbar/>
     <>
-    <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path="/projects" element={<Projects/>}/>
       <Route path="*" element={<NotPage/>}/>
     </Routes>
     </>
