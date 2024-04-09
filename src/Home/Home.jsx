@@ -28,7 +28,7 @@ export const Home = () => {
           
       </div>
       <div className='home-feedback'>
-
+          
       </div>
       <div className='home-contact'>
 
