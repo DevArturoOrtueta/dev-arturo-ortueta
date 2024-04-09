@@ -1,3 +1,9 @@
 :root{
     --color-letter-light: #000;
 }
+
+
+a {
+    color: var(--color-letter-light);
+    text-decoration: none;
+}
