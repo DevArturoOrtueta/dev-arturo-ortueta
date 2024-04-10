@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home-main {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,37 +1,26 @@
 import React from 'react'
 
 import {Cards} from '../components/index'
+import { Services } from './Services/Services'
+import { Hero } from './Hero/Hero'
 import './Home.css'
+import { Feedback } from './Feedback/Feedback'
+import { Contact } from './Contact/Contact'
 
 export const Home = () => {
   return (
     <div  className='home-main'>
       <div className='home-hero'>
-        <div className='home-hero-aboutme'>
-          <div className='aboutme-img'>
-
-          </div>
-          <div className='aboutme-body'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto magnam obcaecati deserunt expedita iste possimus molestiae hic delectus nobis, illum repellendus totam, nisi corporis porro perspiciatis, laboriosam dicta dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt praesentium aspernatur vitae, consequuntur totam aut accusantium rem, illum laborum molestiae, modi neque molestias dolorum amet distinctio ad tempora quam voluptatibus!
-          </div>
-        </div>
-        <div className='home-hero-skills'>
-            <div className='home-skils-left'>
-                
-            </div>
-            <div className='home-skils-right'>
-
-            </div>
-        </div>
+        <Hero/>
       </div>
       <div className='home-services'>
-          
+          <Services/>
       </div>
       <div className='home-feedback'>
-          
+          <Feedback/>
       </div>
       <div className='home-contact'>
-
+          <Contact/>
       </div>
     </div>
   )
