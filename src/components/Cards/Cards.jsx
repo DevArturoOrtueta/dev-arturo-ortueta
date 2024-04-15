@@ -7,7 +7,6 @@ export const Cards = ({title, body}) => {
     <div className='card-title'>
         <h3>{title}</h3>
     </div>
-    <hr />
     <div className='card-body'>
         <p>{body}</p>
     </div>
